@@ -27,6 +27,9 @@ repos:
     layers:
       meta-poky:
 
+  meta-ar:
+    path:meta-ar
+
 local_conf_header:
   base: |
     CONF_VERSION = "2"

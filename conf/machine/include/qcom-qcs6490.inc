@@ -12,6 +12,7 @@ KERNEL_CMDLINE_EXTRA ?= "earlycon"
 MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS += " \
     packagegroup-qcom-boot-essential \
     packagegroup-machine-essential-qcom-qcs6490-soc \
+    packagegroup-qcom-audio \
 "
 
 MACHINE_EXTRA_RRECOMMENDS += " \
